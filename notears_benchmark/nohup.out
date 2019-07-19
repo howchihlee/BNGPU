@@ -1,0 +1,504 @@
+2019-07-02 22:47:31.316003: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-07-02 22:47:31.864553: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:02:00.0
+totalMemory: 11.90GiB freeMemory: 11.75GiB
+2019-07-02 22:47:31.864611: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:47:32.311383: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:47:32.311476: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:47:32.311487: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:47:32.312001: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:47:33.205369: I tensorflow/core/kernels/cuda_solvers.cc:159] Creating CudaSolver handles for stream 0x5a57450
+2019-07-02 22:47:59.330068: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:47:59.330179: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:47:59.330197: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:47:59.330220: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:47:59.330615: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:48:25.421990: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:48:25.422062: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:48:25.422072: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:48:25.422078: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:48:25.424612: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:48:51.066183: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:48:51.066256: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:48:51.066263: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:48:51.066269: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:48:51.066527: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:49:16.239361: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:49:16.239423: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:49:16.239433: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:49:16.239440: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:49:16.239642: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:49:56.949649: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:49:56.949721: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:49:56.949733: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:49:56.949742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:49:56.952455: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:50:37.909968: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:50:37.910047: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:50:37.910055: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:50:37.910060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:50:37.914217: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:51:19.830719: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:51:19.830788: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:51:19.830799: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:51:19.830806: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:51:19.830993: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:52:01.055769: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:52:01.055827: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:52:01.055835: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:52:01.055851: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:52:01.056048: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:52:26.150033: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:52:26.150084: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:52:26.150092: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:52:26.150098: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:52:26.150310: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:52:51.362066: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:52:51.362128: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:52:51.362136: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:52:51.362151: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:52:51.362311: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:53:16.585302: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:53:16.585366: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:53:16.585375: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:53:16.585380: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:53:16.585564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:53:42.245091: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:53:42.245154: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:53:42.245164: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:53:42.245172: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:53:42.245352: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:54:22.918630: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:54:22.918688: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:54:22.918696: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:54:22.918701: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:54:22.918849: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:55:04.379579: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:55:04.379670: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:55:04.379681: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:55:04.379688: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:55:04.379898: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:55:46.025522: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:55:46.025594: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:55:46.025604: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:55:46.025612: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:55:46.025809: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:56:27.163732: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:56:27.163805: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:56:27.163814: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:56:27.163819: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:56:27.163990: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:56:52.588841: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:56:52.588905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:56:52.588915: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:56:52.588922: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:56:52.589120: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:57:18.221328: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:57:18.221398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:57:18.221406: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:57:18.221412: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:57:18.221565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:57:44.253406: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:57:44.253478: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:57:44.253487: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:57:44.253492: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:57:44.253674: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:58:10.901049: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:58:10.901117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:58:10.901127: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:58:10.901134: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:58:10.901314: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:58:51.790756: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:58:51.790814: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:58:51.790822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:58:51.790827: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:58:51.790976: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 22:59:33.005893: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 22:59:33.005956: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 22:59:33.005964: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 22:59:33.005969: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 22:59:33.006133: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 23:00:14.585773: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 23:00:14.585835: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 23:00:14.585843: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 23:00:14.585849: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 23:00:14.586001: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 23:00:55.961882: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 23:00:55.961960: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 23:00:55.961971: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 23:00:55.961978: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 23:00:55.962175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 23:01:21.689484: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 23:01:21.689553: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 23:01:21.689561: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 23:01:21.689566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 23:01:21.689732: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-02 23:07:15.587855: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-02 23:07:15.587934: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-02 23:07:15.587945: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-02 23:07:15.587962: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-02 23:07:15.588149: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+('syntern/DAG1_d100_n100', 100, 100, 28.122024059295654, '0.11209497800453658', '0.8481117388165397')
+('syntern/DAG1_d100_n500', 100, 500, 25.965826988220215, '0.14202291252941493', '0.8778768554049453')
+('syntern/DAG1_d100_n1000', 100, 1000, 25.297093152999878, '0.13981756581895227', '0.8855456812555894')
+('syntern/DAG1_d100_n2000', 100, 2000, 25.212949991226196, '0.13764308770751035', '0.8847952790751565')
+('syntern/DAG1_d300_n100', 300, 100, 40.67295002937317, '0.0779392524590873', '0.8862425897775579')
+('syntern/DAG1_d300_n500', 300, 500, 40.5824511051178, '0.12049389538466543', '0.9175681311418935')
+('syntern/DAG1_d300_n1000', 300, 1000, 41.18737006187439, '0.12424941384752763', '0.9289613477380099')
+('syntern/DAG1_d300_n2000', 300, 2000, 41.35371685028076, '0.12715797418284336', '0.9406846497921403')
+('syntern/EColi_d100_n100', 100, 100, 25.053441047668457, '0.06111299505540009', '0.6995633883494182')
+('syntern/EColi_d100_n500', 100, 500, 24.876049041748047, '0.077075459734227', '0.7329102773286781')
+('syntern/EColi_d100_n1000', 100, 1000, 25.15399193763733, '0.08935030620060602', '0.7399557003144248')
+('syntern/EColi_d100_n2000', 100, 2000, 25.52608299255371, '0.0936698673152074', '0.7433572168936411')
+('syntern/EColi_d300_n100', 300, 100, 40.45157790184021, '0.07242823003605844', '0.8143365493580353')
+('syntern/EColi_d300_n500', 300, 500, 40.94877004623413, '0.09835820984468818', '0.8556485245635267')
+('syntern/EColi_d300_n1000', 300, 1000, 41.245972871780396, '0.10725150824817238', '0.863821865357688')
+('syntern/EColi_d300_n2000', 300, 2000, 41.135154008865356, '0.11002614457988963', '0.8690869160814366')
+('syntern/YeastFull_d100_n100', 100, 100, 25.152195930480957, '0.12071012281892016', '0.8122481347922977')
+('syntern/YeastFull_d100_n500', 100, 500, 25.651217937469482, '0.11930369547002416', '0.851273232915406')
+('syntern/YeastFull_d100_n1000', 100, 1000, 25.988187074661255, '0.13645675445942668', '0.8634349798575962')
+('syntern/YeastFull_d100_n2000', 100, 2000, 26.24266290664673, '0.13898398050973693', '0.8676351462291497')
+('syntern/YeastFull_d300_n100', 300, 100, 40.948737144470215, '0.08045219306732378', '0.8442560579996963')
+('syntern/YeastFull_d300_n500', 300, 500, 40.902101039886475, '0.10815506174646126', '0.8968641497377949')
+('syntern/YeastFull_d300_n1000', 300, 1000, 41.05713891983032, '0.10984896539382372', '0.9103039535584769')
+('syntern/YeastFull_d300_n2000', 300, 2000, 41.04405403137207, '0.10677971373097601', '0.9124218059558891')
+('dream4/multifactorial_100', 100, 100, 25.56310796737671, '0.06336853382017901', '0.6251041049748297')
+('GNWeaver/GNW_ECOLI', 1565, 1565, 349.8221881389618, '0.24551901857575092', '0.817185156472312')
+('GNWeaver/GNW_YEAST', 4441, 4441, 5001.548734903336, '0.3689947920495462', '0.8659180741454912')
+2019-07-03 11:03:07.223778: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-07-03 11:03:07.700708: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:02:00.0
+totalMemory: 11.90GiB freeMemory: 11.75GiB
+2019-07-03 11:03:07.700781: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:03:08.179017: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:03:08.179089: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:03:08.179107: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:03:08.179764: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:03:09.073133: I tensorflow/core/kernels/cuda_solvers.cc:159] Creating CudaSolver handles for stream 0x62ff160
+2019-07-03 11:03:34.862279: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:03:34.862387: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:03:34.862432: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:03:34.862447: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:03:34.862945: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:04:01.071407: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:04:01.071475: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:04:01.071485: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:04:01.071491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:04:01.071735: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:04:27.235199: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:04:27.235280: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:04:27.235289: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:04:27.235295: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:04:27.235460: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:04:53.191261: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:04:53.191338: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:04:53.191350: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:04:53.191358: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:04:53.191578: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:05:34.053807: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:05:34.053867: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:05:34.053876: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:05:34.053882: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:05:34.054047: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:06:15.467099: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:06:15.467157: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:06:15.467167: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:06:15.467173: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:06:15.467705: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:06:57.238052: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:06:57.238125: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:06:57.238136: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:06:57.238144: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:06:57.238352: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:07:38.572815: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:07:38.572882: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:07:38.572890: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:07:38.572896: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:07:38.573990: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:08:03.647475: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:08:03.647536: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:08:03.647545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:08:03.647550: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:08:03.647737: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:08:28.993363: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:08:28.993424: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:08:28.993433: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:08:28.993439: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:08:28.993608: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:08:55.399412: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:08:55.399476: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:08:55.399487: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:08:55.399495: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:08:55.399715: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:09:21.068882: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:09:21.068950: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:09:21.068961: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:09:21.068969: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:09:21.069183: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:10:02.084255: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:10:02.084317: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:10:02.084326: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:10:02.084331: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:10:02.084480: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:10:43.676341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:10:43.676404: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:10:43.676415: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:10:43.676423: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:10:43.678318: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:11:25.097561: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:11:25.097623: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:11:25.097632: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:11:25.097638: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:11:25.097802: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:12:06.572848: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:12:06.572932: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:12:06.572943: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:12:06.572951: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:12:06.573145: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:12:32.127006: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:12:32.127061: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:12:32.127069: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:12:32.127075: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:12:32.127233: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:12:58.151494: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:12:58.151576: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:12:58.151587: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:12:58.151615: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:12:58.151823: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:13:24.603240: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:13:24.603304: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:13:24.603312: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:13:24.603318: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:13:24.603959: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:13:50.633469: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:13:50.633531: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:13:50.633539: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:13:50.633545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:13:50.633703: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:14:32.116117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:14:32.116183: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:14:32.116192: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:14:32.116198: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:14:32.116377: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:15:13.228766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:15:13.228829: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:15:13.228838: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:15:13.228843: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:15:13.228992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:15:54.640054: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:15:54.640117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:15:54.640126: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:15:54.640132: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:15:54.640281: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:16:35.759654: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:16:35.759719: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:16:35.759729: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:16:35.759735: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:16:35.759895: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:17:02.056626: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:17:02.056689: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:17:02.056705: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:17:02.056716: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:17:02.056940: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+2019-07-03 11:22:55.929959: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-03 11:22:55.930023: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-03 11:22:55.930032: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-03 11:22:55.930038: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-03 11:22:55.930678: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:02:00.0, compute capability: 6.1)
+('syntern/DAG1_d100_n100', 100, 100, 27.678887844085693, '0.1249598999491369', '0.8253905312127989')
+('syntern/DAG1_d100_n500', 100, 500, 26.022619009017944, '0.15710006542200491', '0.8731134328682848')
+('syntern/DAG1_d100_n1000', 100, 1000, 25.893614053726196, '0.19255757981646848', '0.8907742360244914')
+('syntern/DAG1_d100_n2000', 100, 2000, 25.646118879318237, '0.18589015603409315', '0.8984882365883388')
+('syntern/DAG1_d300_n100', 300, 100, 41.08707904815674, '0.06965471128967013', '0.8264497725887676')
+('syntern/DAG1_d300_n500', 300, 500, 40.97342586517334, '0.12245489330657688', '0.904860115534878')
+('syntern/DAG1_d300_n1000', 300, 1000, 41.194164991378784, '0.13514890547616235', '0.910114553118803')
+('syntern/DAG1_d300_n2000', 300, 2000, 41.38283181190491, '0.13081664323119185', '0.9165448792947418')
+('syntern/EColi_d100_n100', 100, 100, 24.90277886390686, '0.06644049033980204', '0.6940367763020858')
+('syntern/EColi_d100_n500', 100, 500, 25.14646601676941, '0.08367200017880591', '0.712943182832601')
+('syntern/EColi_d100_n1000', 100, 1000, 25.88706088066101, '0.0873200689964101', '0.7342455911088188')
+('syntern/EColi_d100_n2000', 100, 2000, 25.56529402732849, '0.08612331738962037', '0.7350583099415784')
+('syntern/EColi_d300_n100', 300, 100, 40.96659517288208, '0.06255333512643471', '0.766896552605845')
+('syntern/EColi_d300_n500', 300, 500, 40.903064012527466, '0.10755700794190605', '0.8383329275581405')
+('syntern/EColi_d300_n1000', 300, 1000, 41.07705593109131, '0.11653067825694412', '0.8388508306627874')
+('syntern/EColi_d300_n2000', 300, 2000, 41.21463918685913, '0.1399433450448855', '0.8518752735906975')
+('syntern/YeastFull_d100_n100', 100, 100, 25.467483043670654, '0.1100074652923614', '0.7874463737882367')
+('syntern/YeastFull_d100_n500', 100, 500, 25.646939039230347, '0.16488848002877282', '0.8449024696160713')
+('syntern/YeastFull_d100_n1000', 100, 1000, 26.41499900817871, '0.15392158554900237', '0.8380200558795856')
+('syntern/YeastFull_d100_n2000', 100, 2000, 25.919015884399414, '0.1404836922696123', '0.8632837329906887')
+('syntern/YeastFull_d300_n100', 300, 100, 41.07008385658264, '0.07483357768591911', '0.8093819718645857')
+('syntern/YeastFull_d300_n500', 300, 500, 41.09190511703491, '0.11919687424706568', '0.8735407739648613')
+('syntern/YeastFull_d300_n1000', 300, 1000, 40.92522311210632, '0.12019186655818032', '0.8875699840850726')
+('syntern/YeastFull_d300_n2000', 300, 2000, 40.98026204109192, '0.12733270237165298', '0.8943068854279014')
+('dream4/multifactorial_100', 100, 100, 25.55391001701355, '0.06122900232391229', '0.5984983435741783')
+('GNWeaver/GNW_ECOLI', 1565, 1565, 350.2378160953522, '0.2706689345309822', '0.8168366397167967')
+('GNWeaver/GNW_YEAST', 4441, 4441, 4989.0072889328, '0.4078035253416094', '0.8663467304452288')
+2019-07-07 11:34:32.754374: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-07-07 11:34:33.172600: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:03:00.0
+totalMemory: 11.90GiB freeMemory: 11.75GiB
+2019-07-07 11:34:33.172668: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:34:33.626169: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:34:33.626248: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:34:33.626258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:34:33.626734: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:34:34.465702: I tensorflow/core/kernels/cuda_solvers.cc:159] Creating CudaSolver handles for stream 0x505a290
+2019-07-07 11:35:03.987827: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:35:03.987905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:35:03.987914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:35:03.987921: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:35:03.988201: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:35:33.761882: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:35:33.761967: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:35:33.761984: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:35:33.761995: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:35:33.762319: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:36:03.806692: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:36:03.806762: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:36:03.806770: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:36:03.806791: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:36:03.807015: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:36:33.713271: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:36:33.713349: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:36:33.713359: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:36:33.713367: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:36:33.713580: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:37:20.916050: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:37:20.916138: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:37:20.916149: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:37:20.916157: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:37:20.916374: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:38:05.819616: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:38:05.819704: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:38:05.819715: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:38:05.819722: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:38:05.819976: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:38:52.730254: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:38:52.730365: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:38:52.730381: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:38:52.730391: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:38:52.730691: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:39:37.470723: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:39:37.470821: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:39:37.470833: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:39:37.470840: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:39:37.471117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:40:04.385246: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:40:04.385335: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:40:04.385346: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:40:04.385353: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:40:04.386411: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:40:32.317768: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:40:32.317852: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:40:32.317861: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:40:32.317867: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:40:32.318100: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:40:59.589816: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:40:59.589897: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:40:59.589907: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:40:59.589914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:40:59.590181: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:41:28.097523: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:41:28.097627: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:41:28.097640: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:41:28.097650: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:41:28.097891: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:42:12.621760: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:42:12.621838: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:42:12.621847: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:42:12.621853: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:42:12.622062: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:43:00.123760: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:43:00.123873: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:43:00.123884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:43:00.123901: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:43:00.124164: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:43:47.918091: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:43:47.918187: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:43:47.918198: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:43:47.918205: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:43:47.919001: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:44:33.635478: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:44:33.635556: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:44:33.635565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:44:33.635587: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:44:33.635829: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:45:01.051960: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:45:01.052053: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:45:01.052062: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:45:01.052068: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:45:01.052292: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:45:30.363526: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:45:30.363654: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:45:30.363673: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:45:30.363687: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:45:30.363994: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:45:58.529796: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:45:58.529881: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:45:58.529891: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:45:58.529897: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:45:58.530132: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:46:24.962918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:46:24.963000: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:46:24.963025: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:46:24.963032: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:46:24.963255: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:47:08.738486: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:47:08.738564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:47:08.738574: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:47:08.738581: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:47:08.738798: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:47:52.009519: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:47:52.009596: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:47:52.009605: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:47:52.009611: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:47:52.009869: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:48:41.342384: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:48:41.342506: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:48:41.342520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:48:41.342530: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:48:41.342848: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:49:30.501213: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:49:30.501324: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:49:30.501337: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:49:30.501346: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:49:30.501628: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:50:00.261862: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:50:00.261949: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:50:00.261960: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:50:00.261968: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:50:00.262248: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-07-07 11:56:01.097711: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-07-07 11:56:01.097807: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-07 11:56:01.097820: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-07-07 11:56:01.097830: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-07-07 11:56:01.098088: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11366 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:03:00.0, compute capability: 6.1)
+('syntern/DAG1_d100_n100', 100, 100, 31.197720050811768, '0.1308271559972289', '0.8323951214656016')
+('syntern/DAG1_d100_n500', 100, 500, 29.579400062561035, '0.17298726725277178', '0.8744519428891238')
+('syntern/DAG1_d100_n1000', 100, 1000, 29.869845151901245, '0.20731191009629876', '0.8982665458661372')
+('syntern/DAG1_d100_n2000', 100, 2000, 29.618292093276978, '0.1833020222547939', '0.897088657047799')
+('syntern/DAG1_d300_n100', 300, 100, 47.10324001312256, '0.06406933652098927', '0.83323415953876')
+('syntern/DAG1_d300_n500', 300, 500, 44.601982831954956, '0.12483825329790009', '0.8989513113099095')
+('syntern/DAG1_d300_n1000', 300, 1000, 46.31152415275574, '0.12453314480789167', '0.909859884017513')
+('syntern/DAG1_d300_n2000', 300, 2000, 44.643908977508545, '0.12952722652537516', '0.9130851522959397')
+('syntern/EColi_d100_n100', 100, 100, 26.91176414489746, '0.06382812277438017', '0.678735221039685')
+('syntern/EColi_d100_n500', 100, 500, 27.38209891319275, '0.0882260776285157', '0.7298317405449369')
+('syntern/EColi_d100_n1000', 100, 1000, 27.24198889732361, '0.09642276510912784', '0.7403443919300926')
+('syntern/EColi_d100_n2000', 100, 2000, 28.41573405265808, '0.08855251816416956', '0.7345769398625258')
+('syntern/EColi_d300_n100', 300, 100, 44.393463134765625, '0.06500580725775806', '0.7664696624687729')
+('syntern/EColi_d300_n500', 300, 500, 46.98568892478943, '0.1176835851758487', '0.8330461065711434')
+('syntern/EColi_d300_n1000', 300, 1000, 47.33404994010925, '0.11312126936803374', '0.8516685586090825')
+('syntern/EColi_d300_n2000', 300, 2000, 45.74690008163452, '0.13705141826956202', '0.8548657840957723')
+('syntern/YeastFull_d100_n100', 100, 100, 27.2135591506958, '0.10195107676871724', '0.7800741109647846')
+('syntern/YeastFull_d100_n500', 100, 500, 28.37894582748413, '0.17274788691385193', '0.8387054358260225')
+('syntern/YeastFull_d100_n1000', 100, 1000, 28.53318190574646, '0.15864526015528835', '0.8492763654969107')
+('syntern/YeastFull_d100_n2000', 100, 2000, 26.26484203338623, '0.17010825697763005', '0.8530248351443215')
+('syntern/YeastFull_d300_n100', 300, 100, 43.44253587722778, '0.08971787380258546', '0.8063595932002353')
+('syntern/YeastFull_d300_n500', 300, 500, 43.2057740688324, '0.11511571695147396', '0.8748091796976607')
+('syntern/YeastFull_d300_n1000', 300, 1000, 47.7698769569397, '0.13505594803039345', '0.881295459071244')
+('syntern/YeastFull_d300_n2000', 300, 2000, 49.17364811897278, '0.12841256442119212', '0.8810451664885199')
+('dream4/multifactorial_100', 100, 100, 29.02975606918335, '0.06499842537758599', '0.5972612294566183')
+('GNWeaver/GNW_ECOLI', 1565, 1565, 354.14798498153687, '0.3518555969028178', '0.8303133862378649')
+('GNWeaver/GNW_YEAST', 4441, 4441, 4862.010462999344, '0.5691168518227951', '0.8885754403312566')

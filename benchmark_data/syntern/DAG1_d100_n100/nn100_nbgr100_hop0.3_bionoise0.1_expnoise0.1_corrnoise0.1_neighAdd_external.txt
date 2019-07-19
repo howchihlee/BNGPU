@@ -1,0 +1,13 @@
+Regulator
+rpoE_rseABC
+crp
+mlc
+FruR
+rhaSR
+nlpD_rpoS
+uhpA
+himA
+cytR
+deoR
+ebgR
+tdcAR

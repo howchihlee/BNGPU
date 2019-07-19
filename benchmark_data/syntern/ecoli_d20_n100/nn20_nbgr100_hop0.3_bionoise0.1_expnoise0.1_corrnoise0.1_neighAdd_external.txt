@@ -1,0 +1,4 @@
+Regulator
+rpoE_rseABC
+crp
+dnaA

@@ -1,0 +1,6 @@
+node FruR correlated with node deoR
+node rhaSR correlated with node mlc
+node nlpD_rpoS correlated with node crp
+node ebgR correlated with node rpoE_rseABC
+node cytR correlated with node rpoE_rseABC
+node uhpA correlated with node mlc

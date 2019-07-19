@@ -1,0 +1,10 @@
+node HDA1_TUP1 correlated with node UME6
+node PHO2 correlated with node GAL11
+node SWI3 correlated with node MIG1
+node SPT6 correlated with node SPT16
+node SNF2 correlated with node REB1
+node CAF4 correlated with node SPT21
+node ACE2 correlated with node MBP1_SWI6
+node SNF6 correlated with node UME6
+node LEU3 correlated with node SPT16
+node PHO4 correlated with node SKN7
