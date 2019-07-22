@@ -76,7 +76,7 @@ class NoBearsTF():
         self.l1_ratio = l1_ratio
     
     def roar(self):
-        print('The sleeper has awakened!')
+        print('Our time is short!')
         
     def model_init_train(self, sess, init_iter = 200, init_global_step = 1e-2, noise_level = 0.1):
         for t1 in range(init_iter):
