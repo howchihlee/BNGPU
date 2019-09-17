@@ -63,9 +63,7 @@ class BenchmarkReader():
             return
         
         if id0 == 'syntern':
-            return self._read_sytern(id1)
-        if id0 == 'dream4':
-            return self._read_dream4()    
+            return self._read_sytern(id1)  
         if id0 == 'GNWeaver':
             return self._read_GNWeaver(id1) 
         
@@ -76,7 +74,6 @@ class BenchmarkReader():
             if f[-4:] == '.sif':
                 fn_graph = f
             if f[-20:] == 'maxExpr1_dataset.txt':
-            #if f[-24:] == 'unnormalized_dataset.txt':
                 fn_exp = f
 
         df_graph = pd.read_csv(path + fn_graph, sep = ' ', header = None)
@@ -86,9 +83,6 @@ class BenchmarkReader():
         gene2id = {g:i for i, g in enumerate(id2gene)}
         
         X = df_exp.loc[id2gene].values.T
-        #X = np.log2(X)
-        #X = rank_transform(X)
-        #X = (X - np.mean(X, axis = 0, keepdims=True)) / np.std(X, axis = 0, keepdims=True)
 
         y_true = np.zeros((len(id2gene), len(id2gene)))
 
@@ -99,33 +93,9 @@ class BenchmarkReader():
                 #break
         return BenchmarkData(X, y_true, id2gene)
     
-    
-    def _read_dream4(self):
-        path = _PATH + '/DREAM4 in-silico challenge/Size 100 multifactorial/'
-        df_exp = pd.read_csv(path + 'DREAM4 training data/insilico_size100_1_multifactorial.tsv', sep = '\t')
-        df_graph =pd.read_csv(path + 'DREAM4 gold standards/insilico_size100_multifactorial_1_goldstandard.tsv', 
-                                sep = '\t', header = None)
-
-        df_graph = df_graph[df_graph[2] == 1]
-
-        id2gene = [g for g in df_exp.columns]
-        gene2id = {g:i for i, g in enumerate(id2gene)}
-
-        X = df_exp[id2gene].values.copy()
-        #X = (X - np.mean(X, axis = 0, keepdims=True)) / np.std(X, axis = 0, keepdims=True)  
-
-        n, d = df_exp.shape
-        y_true = np.zeros((d, d)) 
-
-        for g0, g1 in zip(df_graph[0], df_graph[1]):
-            y_true[gene2id[g0], gene2id[g1]] = 1
-        
-        return BenchmarkData(X, y_true, id2gene)
-    
     def _read_GNWeaver(self, folder):
         path = _PATH + '/GNWeaver/%s/' % folder
         X = loadmat(path + 'data_obs.mat')['data_obs']  
-        #X = (X - np.mean(X, axis = 0, keepdims=True)) / np.std(X, axis = 0, keepdims=True)  
         y_true = loadmat(path + 'GS.mat')['GS']
 
         return BenchmarkData(X, y_true)
