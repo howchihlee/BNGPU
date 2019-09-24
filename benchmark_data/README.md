@@ -23,7 +23,7 @@ The script will
  
  
 ## TODO
-* test bash scripts
+* test bash scripts [Done]
 * add tutorial how to use python module
-* add pointer to this page from the main README
+* add pointer to this page from the main README [Done]
 * requirement?
