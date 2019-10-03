@@ -19,11 +19,3 @@ The script will
 2. unzip required files
 3. move unzipped files to the designed directory
 4. remove downloaded files
-
- 
- 
-## TODO
-* test bash scripts [Done]
-* add tutorial how to use python module
-* add pointer to this page from the main README [Done]
-* requirement?
