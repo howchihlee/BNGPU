@@ -127,10 +127,10 @@ class NoBearsTF():
     def construct_graph(self, X, W_init = None, buffer_size = 100, batch_size = None):
         n, d = X.shape
         if batch_size is None:
-            batch_size = n / 2
+            batch_size = n // 2
             
         tf.reset_default_graph()
-
+        
         X_datatf = tf.constant(X.astype('float32'), name='sem_data') ## n x d    
         X_dataset = tf.data.Dataset.from_tensor_slices(X_datatf)
         X_iterator = X_dataset.shuffle(buffer_size=buffer_size).batch(batch_size).repeat().make_initializable_iterator()
